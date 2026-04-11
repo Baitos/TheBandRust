@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.about-header {
+    color: green;
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.shows-header {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center; 
+}
+
+.page-background {
+    background-image: url("./images/rustBackground.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.website-background {
+    background-color: black;
+    color: white;
+}
+
+.band-picture {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.band-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px; 
+    height: 320px;
+
+    padding: 10px;
+    margin: 20px auto;
+}
+
