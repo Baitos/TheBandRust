@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-/*.about-header {
-    color: green;
-    background-color: red;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-}*/
 
 * {
   box-sizing: border-box;
@@ -26,14 +20,6 @@ img, iframe {
     background-position: center;
     background-repeat: no-repeat; 
 }
-
-/*button {
-    height: 60px;
-    width: 60px;
-    padding: 10px;
-    border: 2px solid red;
-    margin: 10px;
-}*/
 
 .top-section {
     display: flex;
@@ -82,3 +68,6 @@ body {
     margin: 20px auto;
 }
 
+@media (max-width: 600px) {
+    
+}
