@@ -6,13 +6,26 @@
 
 img, iframe {
   max-width: 100%;
+  justify-content: center;
 }
 
-.shows-header {
+.shows-header { /* For "Our Shows" and "Email Us" headers */
     font-size: 2.5rem;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     text-align: center; 
+}
+
+.shows-body {
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: center;
+    text-align: center; 
+}
+
+.facebook-post {
+    display: flex;
+    justify-content: center;
 }
 
 .top-section {
@@ -21,6 +34,7 @@ img, iframe {
     padding: 1rem;
     align-items: center;
     gap: 2.5rem;
+    font-family: "Times New Roman", Times, serif;
 }
 
 a {
@@ -164,3 +178,32 @@ body {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+/* For contact boxes */ 
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    background: transparent;
+    padding: 0.5rem;
+    color: white;
+}
+
+textarea {
+    height: 8rem;
+}
+
+button {
+    margin-left: auto;
+    padding: 1rem 2rem;
+}
